@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmed.freeminds">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".authenticate.LoginActivity"
+            android:label="Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".MainActivity"
+            android:label="PhotoBlog" />
+        <activity
+            android:name=".authenticate.RegisterActivity"
+            android:label="Register" />
+        <activity
+            android:name=".SetupActivity"
+            android:label="Account Setup" />
+        <activity
+            android:name=".authenticate.ChangePasswordActivity"
+            android:label="Change Password" />
+        <activity
+            android:name=".authenticate.passwordForgetActivity"
+            android:label="Forgot Password ?" />
+        <activity
+            android:name=".PostActivity"
+            android:label="Add New Post" />
+        <activity
+            android:name=".CommentsActivity"
+            android:label="Comments"></activity>
+    </application>
+
+</manifest>

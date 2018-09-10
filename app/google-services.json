@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "113380152096",
+    "firebase_url": "https://freeminds-f19a6.firebaseio.com",
+    "project_id": "freeminds-f19a6",
+    "storage_bucket": "freeminds-f19a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113380152096:android:0cd83da19181aba0",
+        "android_client_info": {
+          "package_name": "com.example.ahmed.freeminds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113380152096-061921og4deavqe8b71n82sckefs8or7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahmed.freeminds",
+            "certificate_hash": "07b700101d2bc64ce13b66fa55665c8d893bd5e9"
+          }
+        },
+        {
+          "client_id": "113380152096-kcrhj97rjrhqhbbht4572f4guaqhodco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO3GseKtrVl7DoNCDw9sKnm8vQSFfUaSI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113380152096-kcrhj97rjrhqhbbht4572f4guaqhodco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

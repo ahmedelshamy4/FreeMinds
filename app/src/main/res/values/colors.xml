@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b5573f</color>
+    <color name="colorPrimaryDark">#c52b04</color>
+    <color name="colorAccent">#ff9340</color>
+    <color name="lightGreen">#C0CA33</color>
+    <color name="lightGreen_pressed">#9E9D24</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="text_state_selector">#ffffff</color>
+    <color name="darkYellow">#e1ffbf00</color>
+    <color name="fui_bgPhone">#43C5A5</color>
+
+</resources>
